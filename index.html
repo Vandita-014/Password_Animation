@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing Boxicons CSS for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Linking your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Password Toggle</title>
+</head>
+<body>
+
+    <div class="password-field">
+        <!-- The password overlay -->
+        <div class="password-overlay" id="password-overlay"></div>
+
+        <!-- Password lock icon -->
+        <i class='bx bx-lock-alt password-lock-icon'></i>
+        
+        <!-- Password input field -->
+        <input type="password" placeholder="Password..." class="password-input" id="password-input">
+        
+        <!-- Toggle visibility icon -->
+        <i class='bx bx-hide toggle-visibility-icon' id="toggle-visibility-icon"></i>
+    </div>
+
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
